@@ -1,0 +1,28 @@
+Think time pacing
+
+Total transactions in action (12)
+
+Think time for 12*(3) seconds
+
+1 iteration 45 seconds pacing
+
+Total response time for whole scenario 47 seconds
+
+Response time --> 47 secs
+Think time --> 36 secs
+Pacing --> 45 secs
+toatl time for 1 iteration --> 128 secs
+
+1 user --> l28 secs for --> 1 iteration
+
+5000 users --> 128 secs for --> 500 iterations
+
+time duration 15 mins means --> 900 secs
+
+  n= toatl duration/total response time for 1 iteration --> 900/128 ==> 7 iterations
+  
+			now 5000users will iterate 7 times ==> 5000*7 ==> 35000 transactions(Means 35000 submits)
+			
+			Throughput for 15mins with 5000Vusers is 35000 transactions
+  
+  
